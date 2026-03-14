@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Déménagement Bruxelles | Sube y Baja SRL</title>
+    <meta
+      name="description"
+      content="Déménagement Bruxelles et Belgique. National, international, lift, transport express, emballage. Devis gratuit."
+    />
+
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon" />
+
+    <!-- OG -->
+    <meta
+      property="og:title"
+      content="Déménagement Bruxelles | Sube y Baja SRL"
+    />
+    <meta
+      property="og:description"
+      content="National & international, lift services, moving, transport express, emballage. Devis gratuit."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <!-- HEADER -->
+    <header class="site-header" id="top">
+      <div class="container header__inner">
+        <!-- FIX: brand bien fermé -->
+        <a class="brand" href="#top" aria-label="Retour en haut">
+          <img
+            class="brand__logo"
+            src="assets/logo_classic.png"
+            alt="Sube y Baja SRL"
+          />
+          <span class="brand__text">
+            <strong>Sube y Baja SRL</strong>
+            <span>Déménagement Bruxelles</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" aria-label="Navigation principale">
+          <ul class="nav__list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#avis">Avis Google</a></li>
+            <li><a href="#devis">Devis</a></li>
+            <li><a href="#galerie">Interventions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn btn--primary" href="#devis">Devis gratuit</a>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <!-- HERO (paysage, texte dedans) -->
+      <section class="hero hero--landscape" aria-label="Présentation">
+        <div class="hero__bg" aria-hidden="true"></div>
+
+        <div class="container hero__inner">
+          <div class="hero__panel">
+            <p class="kicker">Déménagement Bruxelles & Belgique</p>
+            <h1>Déménagez sereinement, on s’occupe du reste.</h1>
+
+            <p class="lead">
+              Déménagement national & international, lift services, transport
+              express et service d’emballage. Une équipe pro, une organisation
+              claire, un devis rapide.
+            </p>
+
+            <ul class="pill-list" role="list">
+              <li>
+                <i class="fa-solid fa-check"></i> National & international
+              </li>
+              <li><i class="fa-solid fa-check"></i> Lift service</li>
+              <li><i class="fa-solid fa-check"></i> Transport express</li>
+              <li><i class="fa-solid fa-check"></i> Emballage</li>
+            </ul>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#devis">
+                <i class="fa-solid fa-file-signature"></i> Demander un devis
+              </a>
+              <a
+                class="btn btn--outline"
+                href="tel:+32475328985"
+                aria-label="Appeler +32 475 32 89 85"
+              >
+                <i class="fa-solid fa-phone"></i> +32 475 32 89 85
+              </a>
+            </div>
+
+            <p class="tiny">
+              Intervention rapide, matériel adapté, protections et sécurité.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES (zig-zag) -->
+      <section class="section reveal" id="services">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Nos services</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>Une solution complète pour votre déménagement.</p>
+          </header>
+
+          <div class="services">
+            <article class="service reveal">
+              <div class="service__img">
+                <img
+                  src="assets/deg_national.jpg"
+                  alt="Déménagement national"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service__body">
+                <h3>Déménagement national</h3>
+                <p>
+                  Chargement, transport et livraison en toute sécurité, adaptés
+                  à votre situation.
+                </p>
+                <a class="link" href="#devis">
+                  Devis gratuit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service service--reverse reveal">
+              <div class="service__img">
+                <img
+                  src="assets/deg_inter.jpg"
+                  alt="Déménagement international"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service__body">
+                <h3>Déménagement international</h3>
+                <p>
+                  Organisation complète pour un départ à l’étranger avec un
+                  suivi clair.
+                </p>
+                <a class="link" href="#contact">
+                  Parler à un conseiller <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__img">
+                <img src="assets/lift.jpg" alt="Lift service" loading="lazy" />
+              </div>
+              <div class="service__body">
+                <h3>Lift Services</h3>
+                <p>
+                  Monte-charges et solutions de levage selon la configuration de
+                  votre logement.
+                </p>
+                <a class="link" href="#devis">
+                  Demander un devis lift <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service service--reverse reveal">
+              <div class="service__img">
+                <img
+                  src="assets/transport.jpg"
+                  alt="Transport express"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service__body">
+                <h3>Transport Express</h3>
+                <p>
+                  Livraison rapide et fiable: colis, petite marchandise,
+                  demandes urgentes.
+                </p>
+                <a class="link" href="tel:+32475328985">
+                  Appeler maintenant <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <div class="service__img">
+                <img
+                  src="assets/embalage_sb.png"
+                  alt="Service d'emballage"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service__body">
+                <h3>Service d’emballage</h3>
+                <p>
+                  Emballage pro pour protéger vos biens (fragile, vaisselle,
+                  mobilier, cartons adaptés).
+                </p>
+                <a class="link" href="#devis">
+                  Ajouter au devis <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- AVIS GOOGLE -->
+      <section class="section section--alt reveal" id="avis">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Avis Google</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>Ce que nos clients disent de nous.</p>
+          </header>
+
+          <div class="reviews">
+            <div class="reviews__summary reveal">
+              <div class="rating-big">
+                <div class="stars" aria-label="Note">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <strong>4,8</strong>
+                <span>/ 5</span>
+              </div>
+
+              <p class="muted">
+                Basé sur les avis Google. Cliquez pour consulter tous les avis.
+              </p>
+
+              <a
+                class="btn btn--primary btn--block"
+                href="https://www.google.com/search?sca_esv=0b04c3decb545b47&sxsrf=ANbL-n4P8DzNMTZXw4h1ZwbETJj4P4RY0Q:1771254090398&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOZe7Lgqs3tTaIMls_qQrIMdoI_iIn8xi3TxHghSf_9TY5Iv-kR0h24HOvdeWRT1VVu6HJ-NrX8IVqxNcERUljMC1J-10&q=Sube+Y+Baja+Avis&sa=X&ved=2ahUKEwirz_XWo96SAxUx9QIHHfoeM3wQ0bkNegQIIxAH&biw=1536&bih=742&dpr=1.25"
+                target="_blank"
+                rel="noopener"
+              >
+                Voir sur Google <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="reviews__list reveal" aria-label="Avis clients">
+              <article class="review">
+                <header class="review__top">
+                  <strong> LANCEY COLLIN</strong>
+                  <span class="stars small" aria-hidden="true">★★★★★</span>
+                </header>
+                <p>
+                  I had a great experience with this moving service. They
+                  arrived exactly on time and handled everything quickly and
+                  professionally.I would definitely recommend them to anyone
+                  looking for a reliable and efficient moving company!
+                </p>
+              </article>
+
+              <article class="review">
+                <header class="review__top">
+                  <strong>EMMA MIRISOLA </strong>
+                  <span class="stars small" aria-hidden="true">★★★★★</span>
+                </header>
+                <p>
+                  Excellent déménagement Équipe ponctuelle, professionnelle et
+                  soigneuse. Aucun dommage, déménagement rapide et tarifs
+                  clairs. Je recommande vivement sube y baja
+                </p>
+              </article>
+
+              <article class="review">
+                <header class="review__top">
+                  <strong>YASIN JIBET</strong>
+                  <span class="stars small" aria-hidden="true">★★★★★</span>
+                </header>
+                <p>
+                  Uitstekende verhuisservice! Het team was professioneel, stipt
+                  en zeer zorgvuldig met mijn meubels. De
+                  prijs-kwaliteitverhouding is echt top. De verhuizers zorgden
+                  voor het inpakken, transport en uitladen op een snelle en
+                  efficiënte manier.
+                </p>
+              </article>
+
+              <article class="review">
+                <header class="review__top">
+                  <strong>DARIA SOLDANO</strong>
+                  <span class="stars small" aria-hidden="true">★★★★★</span>
+                </header>
+                <p>E stato proprio perfetto!! Grazie mille a lei</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEVIS -->
+      <section class="section reveal" id="devis">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Devis en ligne</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>Remplissez ce formulaire, on revient vers vous rapidement.</p>
+          </header>
+
+          <div class="devis-wrap reveal">
+            <form id="devis-form" class="quote-form">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name"
+                    >Votre nom <span aria-hidden="true">*</span></label
+                  >
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="email"
+                    >Email <span aria-hidden="true">*</span></label
+                  >
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="tel">Tel <span aria-hidden="true">*</span></label>
+                  <input
+                    id="tel"
+                    name="tel"
+                    type="tel"
+                    required
+                    autocomplete="tel"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="volume">Volume</label>
+                  <input
+                    id="volume"
+                    name="volume"
+                    type="text"
+                    placeholder="Ex: 20m³ / 2 pièces"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="from">Adresse de départ</label>
+                  <input
+                    id="from"
+                    name="from"
+                    type="text"
+                    autocomplete="street-address"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="date">Date de déménagement</label>
+                  <input id="date" name="date" type="date" />
+                </div>
+
+                <div class="field">
+                  <label for="to">Adresse d'arrivée</label>
+                  <input
+                    id="to"
+                    name="to"
+                    type="text"
+                    autocomplete="street-address"
+                  />
+                </div>
+
+                <div class="field field--full">
+                  <label for="message">Votre message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Détails: étage, ascenseur, lift, accès, emballage, etc."
+                  ></textarea>
+                </div>
+
+                <div class="field field--full">
+                  <button class="btn btn--primary btn--block" type="submit">
+                    Envoyer la demande
+                  </button>
+                  <p class="form-hint">Réponse sous 24h (jours ouvrables).</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERIE -->
+      <section class="section section--alt reveal" id="galerie">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Nos interventions</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>Quelques images sur le terrain.</p>
+          </header>
+
+          <div class="gallery gallery--big reveal">
+            <img src="assets/int1.jpg" alt="Intervention 1" loading="lazy" />
+            <img src="assets/int2.jpg" alt="Intervention 2" loading="lazy" />
+            <img src="assets/int3.jpg" alt="Intervention 3" loading="lazy" />
+            <img src="assets/int4.jpg" alt="Intervention 4" loading="lazy" />
+            <img src="assets/int5.jpg" alt="Intervention 5" loading="lazy" />
+            <img src="assets/int6.jpg" alt="Intervention 6" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section reveal" id="contact">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Contact</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>Une question, un devis, une urgence: contactez-nous.</p>
+          </header>
+
+          <div class="contact-box reveal">
+            <div>
+              <h3>Sube y Baja SRL</h3>
+              <p class="muted">
+                Rue des Trois Rois 99, 1620 Drogenbos (Belgique)<br />
+                TVA: BE843020169
+              </p>
+              <p class="muted">
+                Tel: <a href="tel:+32475328985">+32 475 32 89 85</a><br />
+                Email: <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
+              </p>
+            </div>
+
+            <div class="contact-box__cta">
+              <a class="btn btn--primary" href="tel:+32475328985">
+                <i class="fa-solid fa-phone"></i> Appeler
+              </a>
+              <a class="btn btn--outline" href="mailto:info@subeybaja.be">
+                <i class="fa-solid fa-envelope"></i> Email
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER FIX: structure propre -->
+    <footer class="site-footer">
+      <div class="container footer__inner">
+        <div>
+          <h4>Sube y Baja SRL</h4>
+          <p class="muted">
+            Déménagement Bruxelles & Belgique. National · International · Lift ·
+            Express · Emballage.
+          </p>
+        </div>
+
+        <div>
+          <h4>Liens</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#avis">Avis Google</a></li>
+            <li><a href="#devis">Devis en ligne</a></li>
+            <li><a href="#galerie">Interventions</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="mentions_legales.html">Mentions légales</a></li>
+            <li>
+              <a href="confidentialite.html">Politique de confidentialité</a>
+            </li>
+            <li><a href="condition_generales.html">Conditions générales</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Coordonnées</h4>
+          <p class="muted">
+            Rue des Trois Rois 99<br />
+            1620 Drogenbos, Belgique<br />
+            Tel: <a href="tel:+32475328985">+32 475 32 89 85</a><br />
+            Email: <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-socials-bottom" aria-label="Réseaux sociaux">
+        <a
+          href="https://www.facebook.com/people/Sube-Y-baja/61583855633942/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/subeybaja_/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://wa.me/32470303830"
+          target="_blank"
+          rel="noopener"
+          aria-label="WhatsApp"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://www.tiktok.com/@subeybaja_"
+          target="_blank"
+          rel="noopener"
+          aria-label="TikTok"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Sube y Baja SRL. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script>
+      // année auto
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // menu mobile
+      const header = document.querySelector(".site-header");
+      const btn = document.querySelector(".nav-toggle");
+      const nav = document.querySelector(".nav");
+      btn.addEventListener("click", () => {
+        const isOpen = header.classList.toggle("nav-open");
+        btn.setAttribute("aria-expanded", String(isOpen));
+        nav.classList.toggle("nav--open", isOpen);
+      });
+
+      // Reveal au scroll
+      const els = document.querySelectorAll(".reveal");
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("is-visible");
+          });
+        },
+        { threshold: 0.15 },
+      );
+
+      els.forEach((el) => io.observe(el));
+    </script>
+
+    <div id="cookie-banner" class="cookie-banner" hidden>
+      <p>
+        Ce site utilise des cookies strictement nécessaires à son
+        fonctionnement. Si des cookies de mesure d’audience ou de services tiers
+        sont ajoutés, votre consentement vous sera demandé.
+      </p>
+      <button id="cookie-close" class="btn btn--outline" type="button">
+        Fermer
+      </button>
+    </div>
+
+    <script>
+      const cookieBanner = document.getElementById("cookie-banner");
+      const cookieClose = document.getElementById("cookie-close");
+
+      if (cookieBanner && cookieClose) {
+        const closed = localStorage.getItem("syb-cookie-banner-closed");
+        if (!closed) {
+          cookieBanner.hidden = false;
+        }
+
+        cookieClose.addEventListener("click", () => {
+          localStorage.setItem("syb-cookie-banner-closed", "1");
+          cookieBanner.hidden = true;
+        });
+      }
+    </script>
+
+    <script>
+      // Initialisation EmailJS
+      emailjs.init("jItjSvJQK07ON26IW");
+
+      const devisForm = document.getElementById("devis-form");
+
+      if (devisForm) {
+        devisForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const submitBtn = devisForm.querySelector('button[type="submit"]');
+          const originalText = submitBtn.textContent;
+
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Envoi en cours...";
+
+          emailjs
+            .sendForm("service_ce8nv97", "template_1s523oe", this)
+            .then(() => {
+              submitBtn.textContent = "✅ Demande envoyée";
+              devisForm.reset();
+
+              setTimeout(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+              }, 2000);
+            })
+            .catch((error) => {
+              console.error("Erreur EmailJS :", error);
+              submitBtn.textContent = "❌ Erreur, réessayez";
+
+              setTimeout(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+              }, 2500);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
